@@ -17,5 +17,6 @@ echo -e "1\n2\n3\n"
 read -p "Quel âge avez-vous : " age
 echo $age "ans! Vous paraissez plus jeune!"
 
-
-
+echo -n "Question : "
+read resultat
+echo $resultat
